@@ -29,7 +29,7 @@ table{
 			${param.name }학생 정보입니다
 		</div>
 		<br>
-		 <% double avg = (Integer.parseInt(request.getParameter("korScore")) +
+		 <%double avg = (Integer.parseInt(request.getParameter("korScore")) +
 				 Integer.parseInt(request.getParameter("engScore")) +
 				 Integer.parseInt(request.getParameter("mathScore")))/3;%>
 		<table>
