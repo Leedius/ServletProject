@@ -65,7 +65,7 @@ table{
 				<td>평균 :</td>
 				<td><%= avg %></td>
 			</tr>
-			<tr height="60">
+			<tr height="60"	>
 				<td colspan="2">
 					<input type="button" onclick="location.href='StudentInfoInputFirst.jsp'" value="처음으로 가기">
 				</td>
