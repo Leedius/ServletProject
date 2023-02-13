@@ -29,9 +29,6 @@ table{
 			${param.name }학생 정보입니다
 		</div>
 		<br>
-		 <% double avg = (Integer.parseInt(request.getParameter("korScore")) +
-				 Integer.parseInt(request.getParameter("engScore")) +
-				 Integer.parseInt(request.getParameter("mathScore")))/3;%>
 		<table>
 			<tr>
 				<td>이름 :</td>
@@ -47,7 +44,7 @@ table{
 			</tr>
 			<tr>
 				<td>성별 :</td>
-				<td>${param.gender }</td>
+				<td>${paramValues.tell[0] }-${paramValues.tell[1] }</td>
 			</tr>
 			<tr>
 				<td>국어 :</td>
@@ -63,7 +60,7 @@ table{
 			</tr>
 			<tr>
 				<td>평균 :</td>
-				<td><%= avg %></td>
+				<td>${(param.korScore + param.engScore + mathScore)/3 }</td>
 			</tr>
 			<tr height="60"	>
 				<td colspan="2">

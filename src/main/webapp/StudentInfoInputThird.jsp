@@ -31,7 +31,8 @@ table{
 		</div>
 		<input value="${param.name }" name="name" type="hidden">
 		<input value="${param.grade }" name="grade" type="hidden">
-		<input value="${param.tell }" name="tell" type="hidden">
+		<input value="${paramValues.tell[0] }" name="tell" type="hidden">
+		<input value="${paramValues.tell[1] }" name="tell" type="hidden">
 		<input value="${param.gender }" name="gender" type="hidden">
 		<table>
 			<tr>
