@@ -1,11 +1,11 @@
 
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 //HttpServlet 클래스에는 웹 개발에 필요한 기능들이 정의되어 있다.
 //그래서 클래스를 만들 떄 HttpServlet 클래스를 상속하면
@@ -17,7 +17,7 @@ import java.io.IOException;
 //main 메소드가 실행되면 doGet() 메소드나 doPost()메소드 중 하나가
 //무조건 실행된다.
 
-public class FirstServlet extends HttpServlet {
+public class FirstServlet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
        
     public FirstServlet() {
