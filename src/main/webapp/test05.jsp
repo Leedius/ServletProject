@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%
+//한글 인코딩
+request.setCharacterEncoding("UTF-8");
+response.setContentType("text/html;charset=UTF-8");
+%>
 	<div>
 		<form action="result05.jsp" method="post">
 			아이디 <input type="text" name="id"><br>

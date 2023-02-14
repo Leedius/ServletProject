@@ -14,6 +14,7 @@
 	//input 태그의 name 속성이 id,pw인 태그에서 넘어온 데이터를 받겠다!
 	String id = request.getParameter("id");
 	String pw = request.getParameter("pw");
+	
 %>
 <%= id%><br>
 <%= pw%><br>
